@@ -1334,7 +1334,7 @@
       // Catch cases where $(document).ready() is called after the
       // browser event has already occurred.
       if ( document.readyState === "complete" ) {
-         return jQL.ready();
+         //return jQL.ready();
       }
 
       // Mozilla, Opera and webkit nightlies currently support this event
